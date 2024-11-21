@@ -1,0 +1,61 @@
+  	
+(WFHYA119) WFH ya Eval! 1C1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Buatlah program yang dapat menggabungkan 2 kelompok pecahan campuran dengan 
+hasil gabungannya nanti terurut dari kecil ke besar.
+
+Keterangan:
+n, jumlah pecahan tabel 1
+3 buah integer dengan urutan bilangan bulatnya, pembilangnya, dan penyebutnya sejumlah n
+m, jumlah pecahan tabel 2
+3 buah integer dengan urutan bilangan bulatnya, pembilangnya, dan penyebutnya sejumlah m
+jenis sorting.
+
+*Catatan:
+    3 buah masukan integer itu maksudnya seperti ini:
+        Misal masukannya 1 3 5
+                                                3
+        Maka bentuk pecahan campurannya adalah 1-
+                                                5
+
+    Jenis sortingnya ditulis sebagai berikut:
+        Bubble  : bubble sort
+        Quick   : quick sort
+        Select  : selection sort
+        Insert  : insertion sort
+
+Contoh Masukan
+
+2
+2 1 3 
+2 3 4 
+3
+1 1 2
+2 2 4
+1 2 3
+Bubble
+
+
+Contoh Keluaran
+
+ 1   2   1   2   3
+1-, 1-, 2-, 2-, 2-
+ 2   3   3   4   4
+
+3
+1 3 4
+3 1 2
+3 2 3
+3
+4 1 2
+4 1 4
+5 1 2
+Bubble
+
+
+1,5 1,66 2,33 2,5 2,75
