@@ -1,0 +1,30 @@
+(msksh20) Mesin Karakter Stay Home
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+[Materi yang diujikan: Mesin Karakter - Jangan lupa janji setia pada kejujuran, StayHappy]
+
+Selesaikan soal ini dengan menggunakan mesin karakter. Periksa sebuah pita dimana akan menampilkan Hore jika huruf pertama yang ada di pita (bagian awal dan akhir pita dapat berisi blank/spasi) sama dengan huruf terakhir dan ada huruf itu juga di tengah pita minimal 1 buah. Jika tidak memenuhi maka akan menampilkan Sabar Menanti.
+Format Masukan:
+String pita maksimal 500 karakter.
+
+Format Keluaran:
+Hore atau Sabar Menanti.
+
+Contoh Masukan
+       stay home stay safe stay happy guys .
+
+
+Contoh Keluaran
+Hore.
+
+		
+Contoh Masukan 2
+baiklah markonah aku akan sabar menanti hingga semuanya kembali.
+
+
+Contoh Keluaran 2
+Sabar Menanti.

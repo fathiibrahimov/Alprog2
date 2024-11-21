@@ -1,0 +1,26 @@
+(rekbd20) Rekursif Bagi Deret
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+[Konsep yang diujikan: Rekursif]
+Diberikan sebuah angka untuk menyusun deret. Deret adalah hasil bagi dua dari angka deret sebelumnya, 
+dimana koma diabaikan dan deret berhenti saat isi deret adalah 0. Misalkan diberikan angka 200 maka deret yang 
+terbentuk adalah 200, 100, 50, 25, 12, 6, 3, 1, 0. Misalkan masukan adalah 3 maka tampilkan 3 angka pertama dari 
+deret yaitu 200, 100, dan 50. Kerjakan dengan cara rekursif.
+
+Format Masukan:
+n, 0 < n < 20000, integer awal deret.
+p, 0 < p < 200, integer banyaknya deret yang ditampilkan.
+Format Keluaran:
+p angka deret.
+Contoh Masukan
+200
+3
+
+
+Contoh Keluaran
+200 100 50
+

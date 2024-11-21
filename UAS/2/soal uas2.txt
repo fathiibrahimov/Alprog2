@@ -1,0 +1,30 @@
+(mskss20) Mesin Kata Stay Safe
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+[Materi yang diujikan: Mesin Kata - Jangan lupa janji setia pada kejujuran, StayHappy]
+
+Selesaikan soal ini dengan menggunakan mesin kata. Periksa di dalam pita apakah ada pasangan kata dimana kata pertama lebih banyak karakter konsonannya dan kata kedua lebih banyak karakter vokalnya. Jika sesuai spesifikasi maka tampilkan Perjuangan dengan Senyuman jika tidak sesuai spesifikasi maka akan menampilkan Pembelajaran untuk Jiwa.
+Format Masukan:
+String pita maksimal 700 karakter.
+
+Format Keluaran:
+Perjuangan dengan Senyuman atau Pembelajaran untuk Jiwa.
+
+Contoh Masukan
+         jika semua berlalu diri akan memandang garis horizon yang terbentang dengan senyuman yang jauh lebih lebar dari sebelumnya janjiiiiiiiiiiiiii .
+
+
+Contoh Keluaran
+Perjuangan dengan Senyuman.
+
+		
+Contoh Masukan 2
+semua ada hikmahnya.
+
+
+Contoh Keluaran 2
+Pembelajaran untuk Jiwa.

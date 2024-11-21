@@ -1,0 +1,41 @@
+ 	
+(mabk20) Matriks Besar
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+[Konsep yang diujikan: Matriks]
+Diberikan dua buah matriks tipe terstruktur/bentukan berupa pecahan yang terdiri dari pembilang dan penyebut, 
+kelompokkan yang besar dan yang kecil dalam satu matriks dengan membandingkan sel matriks yang sama. 
+Matriks pertama dapat digunakan sebagai matriks lebih besar, dan matriks kedua dapat digunakan sebagai matriks lebih kecil
+. Jika dari perbandingan sel ditemukan bahwa isi sel matriks pertama lebih kecil dari isi matriks kedua, maka tukarkan 
+isinya. Tampilkan hasil matriks lebih besar ke layar. Dimensi kedua matriks adalah sama.
+
+Format Masukan:
+b, 0 < b < 50, dimensi baris matriks.
+k, 0 < k < 50, dimensi kolom matriks.
+b x k baris pembilang dan penyebut matriks pertama.
+b x k baris pembilang dan penyebut matriks kedua.
+Format Keluaran:
+b x k pembilang dan penyebut isi matriks pertama/lebih besar.
+Contoh Masukan
+2
+2
+1 3
+1 2
+1 4
+1 5
+2 3
+1 6
+2 4
+1 7
+
+
+Contoh Keluaran
+2 3
+1 2
+2 4
+1 5
+

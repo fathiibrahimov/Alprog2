@@ -1,0 +1,46 @@
+(hppajl20) Happy Aja Lah
+
+Pembuat Soal: Rosa A. S.
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+[Jangan lupa janjinya, Jangan lupa di Rumah aja, Jangan lupa Bahagia, Jangan lupa waktunya 3.5 jam khusus edisi ini]
+
+[Kompetensi yang dievaluasi: Searching]
+
+
+
+Diberikan sebuah array tipe terstruktur berisi dua buah integer pembilang dan penyebut. 
+Array dapat diurutkan berdasarkan hasil pecahan dari pembilang dan penyebut (bilangan riil). 
+Pengurutan dapat dilakukan dengan algoritma pengurutan yang dianggap paling dikuasai urut 
+dari besar ke kecil. Gunakan binary search untuk melakukan pencarian pembilang dan penyebut 
+dari masukan.
+Format Masukan:
+n, 0 < n < 50, banyaknya elemen array.
+n baris dua buah pasangan integer.
+pasangan pembilang dan penyebut yang dicari.
+Format Masukan:
+ditemukan atau tidak ditemukan.
+Contoh Masukan
+3
+1 2
+1 4
+1 3
+1 5
+
+
+Contoh Keluaran
+tidak ditemukan
+
+		
+Contoh Masukan 2
+3
+1 2
+1 4
+1 3
+1 4
+
+
+Contoh Keluaran 2
+ditemukan
