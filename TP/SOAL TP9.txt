@@ -1,0 +1,34 @@
+  	
+(BSK20) Bersama si Kembar
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Romi adalah seorang programmer yang bekerja di divisi penyeledikan.Beberapa hari yang lalu terjadi sebuah tragedi perampokan.
+Korban meninggalkan sebuah kalimat yang mana kalimat tersebut berisi jumlah pelaku perampokan.
+
+Jumlah perampok tersebut dapat diketahui dengan menggunakan sebuah mesin karakter yang menghitung jumlah huruf k yang mana sebelum atau
+sesudahnya harus merupakan jenis huruf yang sama (konsonan/vokal). Contohnya adalah aka dan sks. Bantulah Romi untuk menyelesaikan kasus
+tersebut.
+
+Contoh Masukan
+
+kaka makan ara.
+
+
+Contoh Keluaran
+
+1
+
+		
+Contoh Masukan 2
+
+mara sakk ropo.
+
+
+Contoh Keluaran 2
+
+0
+

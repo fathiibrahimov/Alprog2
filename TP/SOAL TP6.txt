@@ -1,0 +1,123 @@
+ 	
+(GREW19) Galih Ratna Epul WFH
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Galih, Ratna dan Epul mencoba produktif selama WFH, mereka mengumpulkan data-data Penyebaran Virus Corona di beberapa negara.
+ Setelah data-data terkumpul, mereka ingin menggabungkan ketiga datanya secara terurut berdasarkan kemauannya. Yuk bantu mereka.
+
+Format Masukan:
+
+Nama1
+
+Banyak data
+
+NamaNegara JumlahKasus Sembuh Meninggal
+
+
+Nama2
+
+Banyak data
+
+NamaNegara JumlahKasus Sembuh Meninggal
+
+
+Nama3
+
+Banyak data
+
+NamaNegara JumlahKasus Sembuh Meninggal
+
+
+Kemauan Sorting (Berdasarkan: NamaNegara, JumlahKasus, Sembuh, Meninggal, KasusAktif)
+
+Metode Sorting (Insertion, Selection, BubbleSort, QuickSort)
+
+Urutan Sorting (Desc/Asc)
+
+
+Format Keluaran:
+
+Data yang sudah di merge sorting (NamaNegara, JumlahKasus, Sembuh, Meninggal, KasusAktif)
+
+Total Data
+
+
+Catatan:
+
+** Data KasusAktif didapatkan dari proses -> JumlahKasus - (Sembuh+Meninggal)
+Contoh Masukan
+
+Epul
+4
+Indonesia 3293 252 280
+Malaysia 4228 1608 67
+Japan 5530 685 99
+Singapore 1910 460 7
+Ratna
+3
+USA 468887 25928 16697
+Italy 143626 28470 18279
+Spain 153222 52165 15447
+Galih
+2
+Zimbabwe 11 0 3
+Ethiopia 56 4 2
+KasusAktif
+Insertion
+Asc
+
+
+Contoh Keluaran
+
+Data Corona Virus di Beberapa Negara:
+Zimbabwe 11 0 3 8
+Ethiopia 56 4 2 50
+Singapore 1910 460 7 1443
+Malaysia 4228 1608 67 2553
+Indonesia 3293 252 280 2761
+Japan 5530 685 99 4746
+Spain 153222 52165 15447 85610
+Italy 143626 28470 18279 96877
+USA 468887 25928 16697 426262
+Total: 780763 109572 50881 620310
+
+		
+Contoh Masukan 2
+
+Epul
+4
+Indonesia 3293 252 280
+Malaysia 4228 1608 67
+Japan 5530 685 99
+Singapore 1910 460 7
+Ratna
+3
+USA 468887 25928 16697
+Italy 143626 28470 18279
+Spain 153222 52165 15447
+Galih
+2
+Zimbabwe 11 0 3
+Ethiopia 56 4 2
+Sembuh
+BubbleSort
+Desc
+
+
+Contoh Keluaran 2
+
+Data Corona Virus di Beberapa Negara:
+Spain 153222 52165 15447 85610
+Italy 143626 28470 18279 96877
+USA 468887 25928 16697 426262
+Malaysia 4228 1608 67 2553
+Japan 5530 685 99 4746
+Singapore 1910 460 7 1443
+Indonesia 3293 252 280 2761
+Ethiopia 56 4 2 50
+Zimbabwe 11 0 3 8
+Total: 780763 109572 50881 620310

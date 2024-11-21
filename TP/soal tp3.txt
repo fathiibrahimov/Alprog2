@@ -1,0 +1,70 @@
+(ANCI19) Ahmad Main Fibonacci
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Mamang Ahmad mendapatkan tugas dari dosennya untuk membuat sebuah program matriks fibonacci. 
+namun fibonacci yang digunakan bukanlah fibonacci biasa, melainkan fibonacci yang sudah dimodifikasi. 
+Mamang Ahmad mendapatkan ide untuk mengubah pertambahan pada fibonacci tersebut yaitu dengan mengubah beda dari tiap angka.
+Lalu ia membandingkannya dengan matriks pembanding yang dimasukkan oleh user.
+
+Catatan : Beda ditambahkan berdasarkan bilangan sebelumnya. Misal:
+
+jika beda adalah 2, maka:
+
+    3 5 10, pada angka ke-3 beda ditambahkan oleh angka sebelumnya yaitu 3, maka nilai beda saat ini adalah 5
+
+    3 5 10 20, pada angka ke-4 beda ditambahkan lagi oleh angka sebelumnya yaitu 5, maka nilai beda saat ini adalah 10
+
+    Pada matriks pembanding, jika nilai matriks fibonacci lebih besar atau sama dengan nilai matriks pembanding 
+(dilihat dari tiap index), maka akan mengeluarkan output berupa :D, jika tidak maka output berupa D:.
+
+Format Masukkan : 
+n, nilai awal fibonacci
+b, beda fibonacci pertama
+x y, panjang dan lebar matriks
+matriks pembanding
+
+Format Keluaran : 
+Matriks Fibonacci:
+
+Matriks Pembanding:
+
+Contoh Masukan
+2
+3
+2 2
+2 4
+12 21
+
+
+Contoh Keluaran
+Matriks Fibonacci:
+2 5
+10 20
+
+Matriks Pembanding:
+:D :D
+D: D:
+
+		
+Contoh Masukan 2
+3
+5
+3 2
+10 20
+30 40
+50 60
+
+Contoh Keluaran 2
+Matriks Fibonacci:
+3 8
+16 32
+64 128
+
+Matriks Pembanding:
+D: D:
+D: D:
+:D :D

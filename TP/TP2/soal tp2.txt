@@ -1,0 +1,37 @@
+TP2 Alpro2 C1
+ 
+Dudung merupakan pemegang saham terbesr di sebuah perusahaan meubel yang membuatnya bisa melakukan apa pun pada perusahaan
+ tersebut. Pada suatu sore, Ia merasa bosan dan memutuskan untuk melakukan reshuffle terhadap karyawan-karyawan 
+perusahaan tersebut.
+ 
+Dudung akan menyatakan siapa saja yang bertukar jabatan hingga dirinya merasa puas. Setiap kali seseorang bertukar 
+jabatan, maka gajinya akan bertambah 20 persen dari gaji sebelumnya. Tampilkan seluruh jabatan setelah di reshuffle 
+di perusahaan tersebut!
+ 
+(Gunakan Matriks Tipe Bentukan untuk soal ini!)
+ 
+Format Masukan:
+Ukuran matriks
+Matriks jabatan
+Matriks nama karyawan
+Matriks gaji karyawan
+Jabatan yang ditukar hingga "oke."
+ 
+Format Keluaran:
+Matriks jabatan beserta nama dan gajinya
+ 
+Contoh masukan 1:
+2 2
+Direktur Manager
+Sekretaris Janitor
+Bobi Yusuf
+Jeni Cecep
+250000 150000
+100000 50000
+Direktur-Janitor
+Sekretaris-Manager
+oke.
+ 
+Contoh keluaran 1:
+Direktur->Cecep,60000 Manager->Jeni,120000
+Sekretaris->Yusuf,180000 Janitor->Bobi,300000

@@ -1,0 +1,155 @@
+ 	
+(UBG19) Udin Baru Gajian
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Udin baru saja mendapatkan uang dari hasil kerja proyek nya, oleh karena itu, 
+
+ia akan belanja online untuk keperluan selama sebulan kedepan. 
+
+Berikut adalah daftar keranjang belanjaan Udin:
+
+NamaBarang Jumlah Harga
+
+Beras 10.0kg Rp165000
+
+MinyakGoreng 3.6kg Rp108000
+
+Gula 2.0kg Rp20500
+
+KecapManis 0.4kg Rp16000
+
+KecapAsin 0.3kg Rp9000
+
+Saos 0.1kg Rp7250
+
+Susu 1.0kg Rp190100
+
+Mentega 2.0kg Rp50000
+
+SabunCuciPiring 0.8kg Rp30000
+
+SabunMandi 1.2kg Rp39999
+
+DagingAyam 5.0kg Rp175000
+
+DagingSapi 3.0kg Rp300000
+
+BumbuMasak 1.0kg Rp87560
+
+
+Bantulah Udin untuk mengurutkan daftar keranjangnya agar 
+
+Udin dapat membeli barang-barang yang sesuai dengan uang gajinya.
+
+
+Masukan:
+
+GajiUdin
+
+Metode Sorting (Insertion/Selection)
+
+Sorting secara Ascending/Descending
+
+Sorting berdasarkan NamaBarang/Jumlah/Harga
+
+
+Keluaran:
+
+Hasil Sorting
+
+Daftar barang yang bisa dibeli
+
+Daftar barang yang tidak bisa dibeli
+
+Total Harga
+
+Sisa Uang
+Contoh Masukan
+
+500000
+Insertion
+Ascending
+NamaBarang
+
+
+Contoh Keluaran
+
+=== Hasil Sorting ===
+Beras 10.0kg Rp165000
+BumbuMasak 1.0kg Rp87560
+DagingAyam 5.0kg Rp175000
+DagingSapi 3.0kg Rp300000
+Gula 2.0kg Rp20500
+KecapAsin 0.3kg Rp9000
+KecapManis 0.4kg Rp16000
+Mentega 2.0kg Rp50000
+MinyakGoreng 3.6kg Rp108000
+SabunCuciPiring 0.8kg Rp30000
+SabunMandi 1.2kg Rp39999
+Saos 0.1kg Rp7250
+Susu 1.0kg Rp190100
+=== Kebeli ===
+Beras
+BumbuMasak
+DagingAyam
+=== Tidak Kebeli ===
+DagingSapi
+Gula
+KecapAsin
+KecapManis
+Mentega
+MinyakGoreng
+SabunCuciPiring
+SabunMandi
+Saos
+Susu
+Total Harga: Rp427560
+Sisa: Rp72440
+
+		
+Contoh Masukan 2
+
+500000
+Selection
+Descending
+Jumlah
+
+
+Contoh Keluaran 2
+
+=== Hasil Sorting ===
+Beras 10.0kg Rp165000
+DagingAyam 5.0kg Rp175000
+MinyakGoreng 3.6kg Rp108000
+DagingSapi 3.0kg Rp300000
+Mentega 2.0kg Rp50000
+Gula 2.0kg Rp20500
+SabunMandi 1.2kg Rp39999
+Susu 1.0kg Rp190100
+BumbuMasak 1.0kg Rp87560
+SabunCuciPiring 0.8kg Rp30000
+KecapManis 0.4kg Rp16000
+KecapAsin 0.3kg Rp9000
+Saos 0.1kg Rp7250
+=== Kebeli ===
+Beras
+DagingAyam
+MinyakGoreng
+=== Tidak Kebeli ===
+DagingSapi
+Mentega
+Gula
+SabunMandi
+Susu
+BumbuMasak
+SabunCuciPiring
+KecapManis
+KecapAsin
+Saos
+Total Harga: Rp448000
+Sisa: Rp52000
+

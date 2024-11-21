@@ -1,0 +1,19 @@
+Terdapat empat buah file dalam sebuah sistem pencatatan buku yang terdiri dari file
+author, toko buku, genre, dan list buku yang masih terdiri dari kode-kode. Tambahkan
+record menjadi minimal 10 record di file List Buku dan minimal 8 record di file lainnya
+dan buatlah sebuah program sequential file yang:
+1. Menggunakan prinsip tiga file (header, mesin, dan main).
+2. Membuat file “ListBukuFinal.dat” dimana seluruh kode nya sudah diganti dengan
+data dari file-file yang lain (misalkan T02 menjadi Togaperak).
+3. Menampilkan data file gabungan tersebut di dalam program setelah selesai
+digabungkan.
+4. [BONUS] Buat data yang ditampilkan memiliki tampilan berbentuk seperti tabel.
+5. [BONUS] Memiliki menu untuk menambahkan record di masing-masing file
+kecuali file “ListBukuFinal.dat”.
+TUGAS PRAKTIKUM 810
+Dikumpulkan ke email mahkota@upi.edu paling lambat tanggal 9 Mei 2020 pukul 23.59
+dalam bentuk zip/rar dengan nama file dan subjek email “NIM(spasi)Nama(spasi)TP8”
+(contoh: 180XXXX Fachri_Veryawan_Mahkota TP8).
+Setiap keterlambatan satu menit mengakibatkan penalti 2 poin dari keseluruhan nilai dan
+setiap ketidaksesuaian program (terkecuali poin bonus) akan mengakibatkan penalti
+poin

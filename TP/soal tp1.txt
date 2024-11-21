@@ -1,0 +1,90 @@
+(MANTAN19) MAtriks Nomer Tapi Ada N-nya
+
+
+barbar ingin membuat program yang dapat membandingkan antara 2 matriks dengan cara melihat letak huruf N-nya.
+-matriks pertama adalah sebuah matriks dengan isinya sesuai keinginan user.
+-matriks kedua adalah matriks pertama yang telah ditransformasi sesuai keinginan user.
+-matriks selalu tepat persegi.
+-dikatakan VALID ketika letak semua N di matriks kedua sama seperti pada matriks pertama.
+bantu barbar kuy!!
+
+notes:
+   -A untuk rotasi(selalu searah jarum jam).
+   -B untuk refleksi(selalu refleksi kanan).
+   -C untuk transpose.
+input:
+   -n = panjang baris & kolom matriks.
+   -mengisi matriks(ada nomer dan minimal 1 huruf N).
+   -m = jumlah transformasi.
+   -menuliskan transformasi sejumlah m.
+
+output:
+   -matriks original.
+   -matriks setelah ditransformasi.
+   -valid/tidak valid.
+
+Contoh Masukan
+
+2
+1 2
+3 N
+1
+C
+
+
+Contoh Keluaran
+
+1 2
+3 N
+
+1 3
+2 N
+
+VALID
+
+		
+Contoh Masukan 2
+
+3
+1 2 N
+3 4 5
+6 N 7
+3
+A
+B
+C
+
+
+Contoh Keluaran 2
+
+1 2 N
+3 4 5
+6 N 7
+
+1 2 N
+3 4 5
+6 N 7
+
+VALID
+
+	       
+Contoh Masukan 3
+
+2
+1 2
+N 3
+2
+A
+A
+
+
+Contoh Keluaran 3
+
+1 2
+N 3
+
+3 N
+2 1
+
+TIDAK VALID
+

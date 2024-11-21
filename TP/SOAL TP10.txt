@@ -1,0 +1,39 @@
+ 	
+(MKAYU20) Mesin Kata YU 2020
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Buatlah program untuk mencari 2 hal berikut dari suatu kalimat yang diakhiri dengan tanda titik.
+    -jumlah kata yang panjang katanya merupakan bilangan prima.
+    -jumlah kata yang tidak memiliki huruf vokal diantara huruf konsonan.
+    
+
+Contoh Masukan
+
+aku adalah anak yang tampan.
+
+
+Contoh Keluaran
+
+PRIMA :
+-aku
++jumlah : 1
+
+NONVOKO :
+-aku
++jumlah : 1
+
+		
+Contoh Masukan 2
+
+abab ebeb ucuc.
+
+
+Contoh Keluaran 2
+
+TIDAK ADA PRIMA.
+TIDAK ADA NONVOKO.
+

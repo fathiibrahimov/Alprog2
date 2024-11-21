@@ -1,0 +1,30 @@
+(UNIC20) Chara Unique 1
+
+Pembuat Soal: Tim Asisten Pemrograman 10
+
+Batas Waktu Eksekusi 	5 Detik
+Batas Memori 	1 MB
+
+Buatlah program untuk mencari character unik pertama dalam sebuah string. isi string ditentukan oleh user.
+Character unik adalah character yang hanya muncul sekali dalam string tersebut.
+
+Format Masukan
+0 <= k <= 50, string
+
+Format output
+u, string unik pertama
+
+Contoh Masukan
+eatsleeprepeat
+
+
+Contoh Keluaran
+s
+
+		
+Contoh Masukan 2
+meme
+
+
+Contoh Keluaran 2
+tidak ada chara unik.
